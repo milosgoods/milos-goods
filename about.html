@@ -1,12 +1,112 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>About - Milo's Goods</title>
-    </head>
-    <body>
-      <h1>About</h1>
-      <p>Milo's Goods is built on the idea that simple ingredients can still be bold. Our fennel almond butter blends roasted almonds with fennel seeds for a gut-friendly, flavor-forward experience. Made in small batches, crafted with care.</p>
-      <a href="index.html">Back to Home</a>
-    </body>
-    </html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | Milo's Goods</title>
+  <link rel="icon" href="almond-butter.png" type="image/png">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #fffaf6;
+      color: #000;
+      text-align: center;
+      border: 1px solid #000;
+    }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background-color: #ffeae5;
+      border-bottom: 1px solid #000;
+      position: relative;
+    }
+    .topbar .left-icons,
+    .topbar .right-icons {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 0.9rem;
+    }
+    .topbar a { text-decoration: none; color: #000; }
+    .topbar .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    footer {
+      border-top: 1px solid #000;
+      background-color: #fffaf6;
+      font-size: 0.9rem;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-top {
+      background-color: #ffeae5;
+      width: 100%;
+      padding: 10px;
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+      font-weight: bold;
+    }
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin: 20px 0 10px;
+    }
+    .footer-bottom {
+      font-size: 0.75rem;
+      color: #999;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="left-icons">
+    <span>FIND US</span>
+    <a href="#">f</a>
+    <a href="#">📷</a>
+    <a href="#">📌</a>
+    <a href="#">𝕏</a>
+    <a href="#">▶️</a>
+  </div>
+  <div class="logo">MILO'S GOODS</div>
+  <div class="right-icons">Simple Goods That Make You Feel Good</div>
+</div>
+
+<main>
+  <h1>About Milo's Goods</h1><p>Milo’s Goods began with a simple idea: that food should be both delicious and functional. Our almond butter is handcrafted with care and a passion for wellness, made to support your gut and energize your day.</p>
+<p style="margin-top: 40px;"><a href="index.html" style="border: 2px solid #000; padding: 10px 20px; border-radius: 8px; text-decoration: none; color: #000;">Back to Home</a></p>
+</main>
+
+<footer>
+  <div class="footer-top">Shop Our Gut-Friendly Almond Butter</div>
+  <div class="footer-links">
+    <a href="faqs.html">FAQs</a>
+    <a href="buy.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms</a>
+  </div>
+  <div>&copy; 2025 MILO'S GOODS</div>
+  <div class="footer-bottom">Do not sell or share my personal information.</div>
+</footer>
+
+</body>
+</html>
