@@ -49,46 +49,33 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     }
 
-    .buy-button {
-      background: none;
-      border: 2px solid #000;
-      color: #000;
-      font-size: 1rem;
-      padding: 12px 32px;
-      text-decoration: none;
-      transition: 0.3s ease;
-      margin-top: 30px;
-      border-radius: 8px;
+    .link-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 80px;
     }
 
-    .buy-button:hover {
-      background: #000;
+    .link-list li {
+      margin: 45px 0;
+    }
+
+    .link-list a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: #000;
+      border: 2px solid #000;
+      padding: 16px 32px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .link-list a:hover {
+      background-color: #000;
       color: #fff;
     }
 
-    .section {
-      margin-top: 50px;
-      padding: 20px;
-      border-top: 1px solid #ddd;
-      transition: background 0.3s;
-    }
-
-    .section:hover {
-      background: #f9f9f9;
-    }
-
-    .section h2 {
-      font-size: 1.5rem;
-      margin-bottom: 10px;
-    }
-
-    .section p {
-      line-height: 1.6;
-      font-size: 1rem;
-    }
-
     footer {
-      margin-top: 60px;
+      margin-top: 80px;
       padding-top: 20px;
       font-size: 0.8rem;
       color: #666;
@@ -105,22 +92,16 @@
         alt="Milo's Goods Almond Butter"
         class="hero"
       />
-      <a href="buy.html" class="buy-button">BUY NOW</a>
     </header>
 
-    <section class="section">
-      <h2>About</h2>
-      <p>
-        Milo's Goods is built on the idea that simple ingredients can still be bold.
-        Our fennel almond butter blends roasted almonds with fennel seeds for a gut-friendly,
-        flavor-forward experience. Made in small batches, crafted with care.
-      </p>
-    </section>
-
-    <section class="section">
-      <h2>Ingredients</h2>
-      <p>Roasted Almonds, Fennel Seed, Organic Maple Syrup, Sea Salt</p>
-    </section>
+    <ul class="link-list">
+      <li><a href="about.html">About</a></li>
+      <li><a href="ingredients.html">Ingredients</a></li>
+      <li><a href="reviews.html">Customer Reviews</a></li>
+      <li><a href="faqs.html">FAQs</a></li>
+      <li><a href="story.html">Our Story</a></li>
+      <li><a href="buy.html">Buy Now</a></li>
+    </ul>
 
     <footer>
       &copy; 2025 Milo's Goods. All rights reserved.
